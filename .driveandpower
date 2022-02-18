@@ -21,5 +21,3 @@ i = len(rock_verse)- 1
 for i in range(len(rock_verse) -1,-1,-1):
     print (rock_verse[i])
 
-random_rock=random.shuffle(rock_verse)
-print(random_rock)
