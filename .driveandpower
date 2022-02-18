@@ -1,0 +1,25 @@
+# Looked this up dont understand why it isnt working if you can explain?
+
+
+#random_rock=random.shuffle(rock_verse)
+#print(random_rock)
+
+
+
+import random
+
+
+
+rock_verse = ["it's about drive", "it's about power", "we stay hungry", "we devour", "put in the work", "put in the hours", "and take whats our's"]
+
+
+for phrase in rock_verse:
+    print(phrase)
+
+i = len(rock_verse)- 1
+
+for i in range(len(rock_verse) -1,-1,-1):
+    print (rock_verse[i])
+
+random_rock=random.shuffle(rock_verse)
+print(random_rock)
